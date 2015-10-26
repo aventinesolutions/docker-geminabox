@@ -15,4 +15,4 @@ WORKDIR $APP_HOME
 
 RUN $APP_HOME/install_geminabox.sh 
 
-CMD ["rackup"]
+CMD ["/opt/rubie/rackup.sh"]
