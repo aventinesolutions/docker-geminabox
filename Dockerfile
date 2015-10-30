@@ -1,4 +1,4 @@
-FROM aventinesolutions/archlinux-rvm
+FROM aventinesolutions/docker-archlinux-rvm
 
 MAINTAINER Matthew Eichler <matthew.eichler@aventinesolutions.nl>
 

@@ -1,4 +1,4 @@
-IMAGE_TAG = 'aventinesolutions/docker-geminabox'
+IMAGE_TAG = ENV['IMAGE_TAG'] || 'aventinesolutions/docker-geminabox'
 
 task default: :build
 
